@@ -1,0 +1,36 @@
+%DO NOT MESS AROUND WITH THE CODE ON THIS PAGE UNLESS YOU %REALLY KNOW WHAT YOU ARE DOING
+\chapter{Theory and Calculations} \label{Theory and Calculations}
+
+\section{ Stability Network } \label{ Stability Network }
+\noindent The stability of the network depends on the source and load matching $\Gamma_{in}$ and $\Gamma_{out} $and the stability of the amplifier depends on source and load reflection coefficients i.e $\Gamma_{\textit{S}}$ and $\Gamma_{L}$ of the circuit. As per the design methodology we are using unconditional stability that is $|\Gamma_{S}| < 1$ and $|\Gamma_{L}| < 1$ for all passive source and load impedance. The following two tests are done to check the stability:
+
+\subsection{ \boldmath $k$-$\Delta$ test}
+\begin{equation}
+k = \frac{1 + {| \Delta | }^{2} - {|S_{11}|}^{2} -  {|S_{22}|}^{2}}{2|S_{12}S_{21}|} = 1.029
+\end{equation}
+\begin{equation}
+\Delta = S_{11}S_{22} - S_{12}S_{21} = 0.53 \angle {189.82}^{\circ}
+\end{equation}
+\noindent as $k > 1 and |\Delta| < 1$, amplifier is unconditionally stable at 4 GHz
+
+\subsection{ \boldmath $\mu -$ parameter test}
+\begin{equation}
+\mu = \frac{1 - {|S_{11}|}^{2}}{|S_{22} - \Delta S^{*}_{11}| + |S_{12}S_{21}|}   = 1.0695
+\end{equation}
+\noindent as $\mu > 1,$ unconditional stable network.
+
+\section{ Stability Circle } \label{ Stability Circle }
+\subsection{Output Stability}
+\begin{equation}
+C_{L} = \frac{(S_{22} - \Delta S^{*}_{11})^{*}}{{|S_{22}|}^{2} - {|\Delta|}^{2}} = 0.92 \angle {64.41}^{\circ}
+\end{equation}
+\begin{equation}
+R_{L} = \frac{(S_{22} - \Delta S^{*}_{11})^{*}}{{|S_{22}|}^{2} - {|\Delta|}^{2}} = 1.993 
+\end{equation}
+\subsection{Input Stability}
+\begin{equation}
+C_{S} = \frac{(S_{11} - \Delta S^{*}_{22})^{*}}{{|S_{11}|}^{2} - {|\Delta|}^{2}} = 3.01 \angle {47.02}^{\circ}
+\end{equation}
+\begin{equation}
+R_{S} = \frac{(S_{12} - \Delta S^{*}_{21})^{*}}{{|S_{11}|}^{2} - {|\Delta|}^{2}} = 4.029 
+\end{equation}

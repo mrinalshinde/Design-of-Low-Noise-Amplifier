@@ -1,0 +1,12 @@
+\contentsline {chapter}{Aim}{2}
+\contentsline {chapter}{\numberline {1}Theory and Calculations}{3}
+\contentsline {section}{\numberline {1.1} Stability Network }{3}
+\contentsline {subsection}{\numberline {1.1.1} \relax \mathversion {bold}$k$-$\Delta $ test}{3}
+\contentsline {subsection}{\numberline {1.1.2} \relax \mathversion {bold}$\mu -$ parameter test}{4}
+\contentsline {section}{\numberline {1.2} Stability Circle }{4}
+\contentsline {subsection}{\numberline {1.2.1}Output Stability}{4}
+\contentsline {subsection}{\numberline {1.2.2}Input Stability}{4}
+\contentsline {chapter}{\numberline {2}Simulations}{5}
+\contentsline {section}{\numberline {2.1} Stability Circle}{5}
+\contentsline {section}{\numberline {2.2} Stability Curve}{5}
+\contentsline {section}{\numberline {2.3} Stability Circuit}{5}
